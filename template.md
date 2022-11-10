@@ -59,7 +59,6 @@
 
 ## About the Author
 
-#### Josiah Stelzl is an amateur full stack web developer with experience in JavaScript, HTML, CSS, GIT, Node, Express, and SQL. 
-#### Examples of the author's work can be found by visiting the provided GitHub link below or the author's portfolio.
+#### Josiah Stelzl is an amateur full stack web developer with experience in JavaScript, HTML, CSS, GIT, Node, Express, and SQL. <br/> Examples of the author's work can be found by visiting the provided GitHub link below or the author's portfolio.
 ####  Josiah Stelzl's portfolio: https://jstelzl.github.io/portfolio/
 #### Josiah Stelzl's GitHub: https://github.com/Jstelzl
