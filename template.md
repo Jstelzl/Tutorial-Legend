@@ -48,10 +48,13 @@
 #### A Greedy Match is used by quantifiers. When a match is greedy is will try to match as many sets as possible. It's opposite is the lazy match. A lazy match will case the match to repeat the minimal number of times. Matches are normally by default greedy. If you were to make a match lazy, you would place a "?" to the right of a quantifier.
 
 ### Boundaries
+#### Using a previouse example, "^" and "$", set at the beginning and end of the regex can be considered boundry markers. They provide a reference point for the regex. The forward slash is also a boundry, as seen here: /^[A-Z]$/.
 
 ### Back-references
+#### Back-References are regular expression commands which refer to a previous part of the matched regular expression. They are specified using a backslash followed by a number. Example: "\1". There are not back-references in our regex.
 
 ### Look-ahead and Look-behind
+#### Both of these collectively are called "lookaround". Both lookahead and lookbehind have positive and negative versions. "Positive lookahead" Matches a group after the main expression without including it in the result, "Negative lookahead" will specify a group that can't match after the main expression, and if it does match, it will be discarded. <br/> "Positive lookbehind" Will match a group before the main expression without including it in the result, and " "Negative lookhehind" will specify a group that can't match before the main expression. Just like the Negative lookahead, the Negative lookbehind will discard any matches.
 
 ## About the Author
 
