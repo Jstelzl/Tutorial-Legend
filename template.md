@@ -1,4 +1,5 @@
-# Email Regex by Tutorial Legend
+# Email Regex
+##### By Tutorial Legend
 
 #### Welcome to Tutorial Lengend! This tutorial will help you understand the regex provided in the summary below as well as the structure of Regular Expressions in general. We will be going over how regular expressions works by explorying the structure of the provided regex example.
 
