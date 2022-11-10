@@ -6,7 +6,6 @@
 #### The regex shown will provid the abuility to search for email addresses. It will use specific criteria to narrow down the search and identify what is and what is not concidered an email address. We will be able to sort through all sorts of random strings and tell what is a correct address!
 
 #### This is the regex we will be going over today: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-<!-- Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary. -->
 
 ## Table of Contents
 
@@ -29,19 +28,24 @@
 
 
 ### Quantifiers
-#### Quantifiers are symbles that indicate a token must be matched a certain number of times. By default, quantifiers are greedy, which means they match as many characters as possible. An example of a quantifier in our regex is the "+" sign which is meant to match 1 or more of the preceding tokens. If we were to make our quantifier lazy, we could simply place a "?" at right after the quantifier. In our case the "+" sign. This would cause it to repeat the minimal number of times.
+#### Quantifiers are symbles that indicate a token must be matched a certain number of times. By default, quantifiers are greedy, which means they match as many characters as possible. An example of a quantifier in our regex is the "+" sign which is meant to match 1 or more of the preceding tokens. If we were to make our quantifier lazy, we could simply place a "?" at right after the quantifier. In our case, to the right of the "+" sign. This would cause it to repeat the minimal number of times.
 
 ### OR Operator
+#### The OR operator functions how you might expect it to. It allows a choice between criteria depending on the search result. If one set of criteria is not found, but the other is, we can use an OR operator, "|", to create a second route. <br/> Emaple: ((^|, )(part1|part2|part3))+$ . <br/> Our regex doesn't have an example of this, so we will move on.
 
 ### Character Classes
+#### Character classes can be identified by their brackets, a set of brackets with characters inside. <br/> Example: [xyz]. In this case, the Character classe matches any one enclosed character. A rang of characters can be found by using a dash between characters, [a-z]. In our regex above you can see the ranges. <br/> [a-z0-9_\.-], [\da-z\.-], [a-z\.].
 
 ### Flags
+#### Flags are ways to narrow the search by adding broad criteria sich as having the search be case-insensitive. <br/> There are six flags: global, case insensitive, multiline, single line (dotall), unicode, and sticky. To define a few, case insensitive allows for the search to see capital A and lowercase a as the same for example. If sticky is set, it will only match from its lastIndex position and ignores the global flag if set. 
 
 ### Grouping and Capturing
+#### These can be identified by using "()" to enclose Character sets. In our regex you can see three examples of this. They are used to group multiple tokens.
 
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
+#### A Greedy Match is used by quantifiers. When a match is greedy is will try to match as many sets as possible. It's opposite is the lazy match. A lazy match will case the match to repeat the minimal number of times. Matches are normally by default greedy. If you were to make a match lazy, you would place a "?" to the right of a quantifier.
 
 ### Boundaries
 
