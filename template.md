@@ -1,6 +1,6 @@
 # Email Regex by Tutorial Legend
 
-#### Welcome to Tutorial Lengend! This tutorial will help you understand the regex provided in the summary below as well as the structure of Regular Expressions in general. We will be going over how regular expressions works by explorying the structure of the provided regex examole.
+#### Welcome to Tutorial Lengend! This tutorial will help you understand the regex provided in the summary below as well as the structure of Regular Expressions in general. We will be going over how regular expressions works by explorying the structure of the provided regex example.
 
 ## Summary
 #### The regex shown will provid the ability to search for email addresses. It will use specific criteria to narrow down the search and identify what is and what is not concidered an email address. We will be able to sort through all sorts of random strings and tell what is a correct address!
