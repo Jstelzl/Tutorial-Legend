@@ -1,9 +1,9 @@
 # Email Regex by Tutorial Legend
 
-#### Welcome to Tutorial Lengend! This tutorial will help you understand the regex provided in the summary below. We will be going over how the regex works by explorying it's structure.
+#### Welcome to Tutorial Lengend! This tutorial will help you understand the regex provided in the summary below as well as the structure of Regular Expressions in general. We will be going over how regular expressions works by explorying the structure of the provided regex examole.
 
 ## Summary
-#### The regex shown will provid the abuility to search for email addresses. It will use specific criteria to narrow down the search and identify what is and what is not concidered an email address. We will be able to sort through all sorts of random strings and tell what is a correct address!
+#### The regex shown will provid the ability to search for email addresses. It will use specific criteria to narrow down the search and identify what is and what is not concidered an email address. We will be able to sort through all sorts of random strings and tell what is a correct address!
 
 #### This is the regex we will be going over today: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
@@ -24,7 +24,7 @@
 ## Regex Components
 
 ### Anchors
-#### Let's identify the first and last characters in the regex. At the very beginning, you will notice the character "^". <br/> This character will tell the regex, this is the first point in the string, <br/> however this is only the case when accompanied by the "$" at the end, [whcih] you will notice at the end of the regex. <br/> This brings us to the last character, "$". <br/> When accompanied by the "^" at the beginning, both these symbols identify the beginning and end points <br/> of the string, as interpreted by the regex. Therefore, "^" combined with "$" will tell the regex that anything between the two symbols will be our string, but the "^" must be at the beginning, and "$" at the end. <br/> This is an example of a regex anchor. Anchors don't match any characters, <br/> but assert something about the string, or matching process. They provide structure for the rest of the characters.
+#### Let's identify the first and last characters in the regex. At the very beginning, you will notice the character "^". <br/> This character will tell the regex, this is the first point in the string, <br/> however this is only the case when accompanied by the "$" at the end, which you will notice at the end of the regex. <br/> This brings us to the last character, "$". <br/> When accompanied by the "^" at the beginning, both these symbols identify the beginning and end points <br/> of the string, as interpreted by the regex. Therefore, "^" combined with "$" will tell the regex that anything between the two symbols will be our string, but the "^" must be at the beginning, and "$" at the end. <br/> This is an example of a regex anchor. Anchors don't match any characters, <br/> but assert something about the string, or matching process. They provide structure for the rest of the characters.
 
 
 ### Quantifiers
